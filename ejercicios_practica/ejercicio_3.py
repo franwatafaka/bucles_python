@@ -14,5 +14,10 @@
 # La sumatoria se deberá ir guardando en la variable "suma"
 numeros = [1, 5, -1, 6, 10, 2, -5]
 suma = 0   # Variable ya inicializada, la suma arranca en cero
+numeros_len = len(numeros)
+for i in range(numeros_len):
+    suma +=numeros[i]
+    print('El valor de suma actual es {}'.format(suma))
 
+print('El valor final de suma es {}'.format(suma))
 print("terminamos!, el resultado final almacenado en suma debe ser 18")
